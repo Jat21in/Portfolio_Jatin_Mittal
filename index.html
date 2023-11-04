@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-Jatin_Mittal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/84dcddce39.js" crossorigin="anonymous"></script> 
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.PNG" class="logo">
+                
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>CSE 2nd year UG student</p>
+                <h1>Hi, I'm <spam>Jatin</spam><br>Mittal From India </h1>
+            </div>
+        </div>
+    </div>
+<!-- -------------------about me---------------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="user.jpg" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p class="sub-about">Fueling my Passion for Technology: Aspiring Software Engineer & Second-year Engineering Student
+
+                    <br>Hi there! I'm a dynamic second-year Engineering student with a strong focus on harnessing the power of technology. I'm thrilled to share that I've already completed my data structures and algorithms training in JAVA, a stepping stone to my journey into the tech world. Currently, my creative drive has led me towards Web Development, and I'm actively involved in various exciting projects centered around this field.
+                    
+                    <br>My ultimate goal is to thrive in a competitive and challenging environment, where my skills find purpose and flourish further. Driven by my passion for problem-solving and innovation, I'm determined to carve out a rewarding career path as a Software Engineer. The invaluable experience and skills I've gathered so far fuel my desire to deliver the best results in any venture I undertake. 
+                    
+                    <br>Let's connect and explore how we can collaborate to build a brighter tech-driven future together!
+                    
+                </p>
+
+                 <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                 </div>
+                 <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><spam>Front End Development</spam><br>HTML <br>CSS <br>JavaScript</li>
+                        <li><spam>DataBase</spam><br>MySQL</li>
+                        <li><spam>Spoken Languages</spam><br>English <br>Hindi <br>Punjabi</li>
+                    </ul>
+                 </div>
+
+                 <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><spam>2023-Current</spam><br>Designing Web/App interfaces</li>
+                        <li><spam>2022-Current</spam><br>Web app Development</li>
+                        <li><spam>2023-Current</spam><br>Building Android/iOS apps</li>
+                    </ul>
+                 </div>
+
+                 <div class="tab-contents" id="education">
+                    <ul>
+                        <li><spam>2022-2026</spam><br>CHANDIGARH UNIVERSITY,<br>Bachelor of Technology - BTech - 8.2</li>
+                        <li><spam>2021-2022</spam><br>Govt Model Senior Secondary School Sector-8(B) Chandigarh <br>Intermediate Education. - 87.6%</li>
+                        <li><spam>2013-2019</spam><br>St Xaviers High School Sector-20 Panchkula <br>Secondary Schooling - 93.2%</li>
+                    </ul>
+                 </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -------------------services------------------ -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p> I offer a comprehensive range of web design solutions tailored to meet the unique needs of each client. With a focus on user-centered design, I create visually appealing and responsive websites that not only capture the essence of a brand but also enhance the user experience. My services include custom website development, responsive design, e-commerce solutions, and ongoing maintenance to ensure optimal performance. I am dedicated to delivering innovative and functional web designs that leave a lasting impression and drive online success for businesses of all sizes.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>In the realm of UI/UX design, I offer a comprehensive range of services aimed at enhancing digital experiences. My expertise encompasses user research, wireframing, prototyping, and high-fidelity interface design, all geared towards creating intuitive and visually engaging user interfaces. With a keen eye for aesthetics and a user-centered approach, I strive to craft seamless and delightful interactions that elevate the overall user experience, driving client satisfaction and product success.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Design</h2>
+                <p>I offer a comprehensive suite of services aimed at creating user-friendly and visually appealing mobile applications. From concept ideation and wireframing to UI/UX design and prototyping, I specialize in crafting intuitive and engaging app interfaces that resonate with end-users. My commitment to responsive and efficient design principles ensures that the apps I create not only look great but also function seamlessly across various devices and platforms. With a keen eye for detail and a dedication to user-centered design, I'm here to transform your app ideas into a compelling and user-friendly reality.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ---------------------------portfolio----------------------------  -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png">
+                <div class="layer">
+                    <h3>Amazon Clone</h3>
+                    <p>An online shopping app offers a convenient and personalized way to browse, purchase, and receive a wide range of products from the comfort of your device.
+                    </p>
+                    <a href="https://jat21in.github.io/JatinMittal.amazon/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png">
+                <div class="layer">
+                    <h3>Health Care Portal Management System</h3>
+                    <p>A healthcare portal management system in Java is a comprehensive software solution that centralizes and manages information related to doctors, patients, facilities, staff, and services within a hospital, streamlining healthcare operations and enhancing data accessibility.
+                    </p>
+                    <a href="https://github.com/Jat21in/Health_Care_Portal/tree/main"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.png">
+                <div class="layer">
+                    <h3>Advanced Mathematical Calculator - Java</h3>
+                    <p>
+                      "An advanced mathematical calculator in Java that performs a wide range of mathematical operations, including basic arithmetic, exponentiation, root calculations, factorial expressions, logarithms, trigonometric functions, and solving geometry problems for area and volume of various shapes."
+                    </p>
+                    <a href="https://github.com/Jat21in/Advanced_Mathematical_Calculator/tree/main"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- --------------------------contact-------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>mittaljatin2004@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>9729507672</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/invites/contact/?i=167gyjztjavoz&utm_content=q2ua8pf "><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/jatinmittal08?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Jat21in"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://t.me/+s7yiCu_5Ftw5NzA1"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="https://www.snapchat.com/add/mittaljatin21?share_id=d0SJhe2L8jE&locale=en-IN"><i class="fa-brands fa-snapchat"></i></a>
+                </div>
+                <a href="my-cv.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>       
+    </div>
+    <div class="copyright">
+        <p>Copyright © . Made with <i class="fa-solid fa-heart"></i> by Jatin Mittal</p>
+    </div>
+</div>
+ 
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemeu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function openmenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxWqy5-n9D4Y7iDGMqF4V0JGMWflyvd-OOBDASh7AAP0d0hAeMT0OTwY5wvftjtumWz/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    const msg=document.getElementById("msg");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
