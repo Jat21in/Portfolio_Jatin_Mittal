@@ -326,11 +326,9 @@ form .btn2{
 }
 
 /* --------------------------css for small screen-------------------------- */
-
 nav .fa-solid{
     display: none;
 }
-
 
 @media only screen and (max-width: 600px){
     #header{
@@ -351,7 +349,7 @@ nav .fa-solid{
         background: #ff004f;
         position: fixed;
         top: 0;
-        right: -200px;
+        right: -400px;
         width: 200px;
         height: 100vh;
         padding-top: 50px;
@@ -361,7 +359,6 @@ nav .fa-solid{
     nav ul li{
         display: block;
         margin: 25px;
-        padding-right: 100%;
     }
     nav ul .fa-solid{
         position: absolute;
@@ -392,6 +389,7 @@ nav .fa-solid{
         font-size: 14px;
     }
 }
+
 #msg{
     color: #61b752;
     margin-top: -10px;
